@@ -13,6 +13,10 @@
     <None Remove="Data\Interfaces\" />
     <None Remove="Data\Moks\" />
     <None Remove="Contollers\" />
+    <None Remove="Views\" />
+    <None Remove="Views\Cars\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
@@ -24,5 +28,9 @@
     <Folder Include="Data\Interfaces\" />
     <Folder Include="Data\Mocks\" />
     <Folder Include="Contollers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\Cars\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
 </Project>
