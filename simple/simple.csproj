@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.AspNetCore.StaticFiles" />
+    <None Remove="Microsoft.AspNet.Mvc" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Core" />
+    <None Remove="Data\" />
+    <None Remove="Data\Models\" />
+    <None Remove="Data\Interfaces\" />
+    <None Remove="Data\Moks\" />
+    <None Remove="Contollers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Data\Models\" />
+    <Folder Include="Data\Interfaces\" />
+    <Folder Include="Data\Mocks\" />
+    <Folder Include="Contollers\" />
+  </ItemGroup>
+</Project>
