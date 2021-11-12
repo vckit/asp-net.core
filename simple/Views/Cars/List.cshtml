@@ -1,0 +1,11 @@
+﻿<h1>Все автомобили</h1>
+<h3>@Model.currentCategory</h3>
+@{
+    foreach (var car in Model.GetAllCars)
+    {
+        <div>
+            <h2>Модель: @car.name</h2>
+            <p>Цена: @car.price.ToString("C3")</p>
+        </div>
+    }
+}
